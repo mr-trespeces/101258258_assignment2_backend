@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const employeeRouter = require('./routes/EmployeeRoutes.js')
 
-const DB_URL = "mongodb+srv://dbAdmin:dbadminpassword@comp3123.40oze.mongodb.net/101258258_assignment2?retryWrites=true&w=majority"
+const DB_URL = "mongodb+srv://dbAdmin:dbadminpassword@comp3123.40oze.mongodb.net/react-crud?retryWrites=true&w=majority"
 const app = express();
 var cors = require('cors')
 app.use(cors()) // Use this after the variable declaration
